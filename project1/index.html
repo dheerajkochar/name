@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="name.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li ><a href="#home">Home</a></li>
+            <li ><a href="#service">Service</a></li>
+            <li ><a href="#contact">contact Us</a></li>
+
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="animate__animated animate__bounce animate__repeat-2">welcome to my website</h1>
+        <button>click me</button>
+    </section>
+    <!-- <section id="service">
+          <h1>service</h1>
+          <div class="cards">
+            <div class="card1"></div>
+            <div class="card1"></div>
+            <div class="card1"></div>
+            <div class="card1"></div>
+            <div class="card1"></div>
+            <div class="card1"></div>
+
+          </div>
+    </section>
+    <section id="contact">
+         <h1>social media links</h1>
+         <div class="links">
+            <a href="https://www.youtube.com/" about="blank"><img src="face.png" alt=""></a>
+            <img src="insta.png" alt="">
+            <img src="whats.png" alt="">
+         </div>
+    </section> -->
+
+<script>
+
+
+let namaste =    document.querySelector('button');
+  let raam = document.querySelector('h1');
+   namaste.addEventListener('click',show);
+   function show() {
+      let name = prompt("enter the name of student");
+      raam.textContent = "gand mara " + name;
+}
+</script>
+    </body>
+</html>
